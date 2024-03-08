@@ -11,7 +11,7 @@ public class ex05 {
 	System.out.print(" 달러를 입력하세요 : ");
 	int dollar = sc.nextInt();
 	
-	System.out.printf("원화" : dollar*1092.500);
+	System.out.printf(" 원화 " : dollar*1092.500);
 	
  }
 
