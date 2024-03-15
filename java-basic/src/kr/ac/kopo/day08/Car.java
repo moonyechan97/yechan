@@ -1,6 +1,6 @@
 package kr.ac.kopo.day08;
 
-// ÂüÁ¶Å¬·¡½º
+// ì°¸ì¡°í´ë˜ìŠ¤
 public class Car {
     String name;
 	int price;

@@ -3,12 +3,12 @@ package kr.ac.kopo.day02;
 import java.util.Scanner;
 
 /*
- * º¸À¯ÇÏ°í ÀÖ´Â Ã¥±Ç¼ö ÀÔ·Â : 1
+ * ë³´ìœ í•˜ê³  ìˆëŠ” ì±…ê¶Œìˆ˜ ì…ë ¥ : 1
  * 1 book
- * º¸À¯ÇÏ°í ÀÖ´Â Ã¥±Ç¼ö ÀÔ·Â : 3
+ * ë³´ìœ í•˜ê³  ìˆëŠ” ì±…ê¶Œìˆ˜ ì…ë ¥ : 3
  * 3 books
- * º¸À¯ÇÏ°í ÀÖ´Â Ã¥±Ç¼ö ÀÔ·Â : 0
- * º¸À¯ÇÏ°í ÀÖ´Â Ã¥ ¾øÀ½
+ * ë³´ìœ í•˜ê³  ìˆëŠ” ì±…ê¶Œìˆ˜ ì…ë ¥ : 0
+ * ë³´ìœ í•˜ê³  ìˆëŠ” ì±… ì—†ìŒ
  */
 
 public class IFMain02 {
@@ -16,11 +16,11 @@ public class IFMain02 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.print("º¸À¯ÇÏ°í ÀÖ´Â Ã¥ ±Ç¼ö ÀÔ·Â : ");
+		System.out.print("ë³´ìœ í•˜ê³  ìˆëŠ” ì±… ê¶Œìˆ˜ ì…ë ¥ : ");
 		int book = sc.nextInt();
 		
 		if(book == 0) {
-			System.out.println("º¸À¯ÇÏ°í ÀÖ´Â Ã¥ ¾øÀ½");
+			System.out.println("ë³´ìœ í•˜ê³  ìˆëŠ” ì±… ì—†ìŒ");
 		} else if(book == 1) {
 			System.out.println(book + " book");
 		} else {

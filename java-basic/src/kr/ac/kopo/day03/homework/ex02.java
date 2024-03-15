@@ -8,16 +8,16 @@ public class ex02 {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.print("ÃÊ¸¦ ÀÔ·Â : ");
+		System.out.print("ì´ˆë¥¼ ìž…ë ¥ : ");
 		int sec = sc.nextInt();
 		sc.nextLine();
 		
-		// sec = 3661 °¡Á¤
+		// sec = 3661 ê°€ì •
 		int hour = sec / (60*60);
 		int min = sec % (60*60) / 60;
 		int s = sec % 3600 % 60;
 		
-		System.out.printf("%dÃÊ : %d½Ã°£ %dºÐ %dÃÊ\n", sec, hour, min, s);
+		System.out.printf("%dì´ˆ : %dì‹œê°„ %dë¶„ %dì´ˆ\n", sec, hour, min, s);
 		
 	}
 }

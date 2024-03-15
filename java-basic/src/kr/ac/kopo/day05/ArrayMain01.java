@@ -3,9 +3,9 @@ package kr.ac.kopo.day05;
 import java.util.Scanner;
 
 /*
- 	1's Á¤¼ö : 23
- 	2's Á¤¼ö : 15
- 	3's Á¤¼ö : 83
+ 	1's ì •ìˆ˜ : 23
+ 	2's ì •ìˆ˜ : 15
+ 	3's ì •ìˆ˜ : 83
  	
  	< PRINT >
  	23  15  83

@@ -4,7 +4,7 @@ public class ex01 {
 
 	public static void main(String[] args) {
 		System.out.println("---------------------------");
-		System.out.println("¿µ¹®ÀÚÀÇ ¾Æ½ºÅ° ÄÚµå °ª");
+		System.out.println("ì˜ë¬¸ìì˜ ì•„ìŠ¤í‚¤ ì½”ë“œ ê°’");
 		System.out.println("---------------------------");
 		System.out.println("A = " + (int)'A');
 		System.out.println("E = " + (int)'E');
@@ -15,4 +15,5 @@ public class ex01 {
 	}
 
 }
+
 

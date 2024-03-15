@@ -8,24 +8,24 @@ public class ScannerMain01 {
 		
 		 Scanner sc = new Scanner(System.in);
 		 
-		 System.out.println("¹®ÀÚ¸¦ ÀÔ·Â : ");
+		 System.out.println("ë¬¸ìë¥¼ ì…ë ¥ : ");
 		 char d = sc.nextLine().charAt(0);
 		 System.out.println("d : " + d);
 		 
-		 System.out.println("Á¤¼ö ÀÔ·Â : ");
+		 System.out.println("ì •ìˆ˜ ì…ë ¥ : ");
 //		 int a = 10;
 		 int a = sc.nextInt();
 		 sc.nextLine();
 		 System.out.println("a : " + a);
 		 
-		 System.out.println("½Ç¼ö ÀÔ·Â : ");
+		 System.out.println("ì‹¤ìˆ˜ ì…ë ¥ : ");
 		 double b = sc.nextDouble();
 		 sc.nextLine();
 		 System.out.println("b : " + b);
 		 
-		 System.out.print("¹®ÀÚ¿­À» ÀÔ·Â : ");
-		 //String c = sc.next(); // ´Ü¾î´ÜÀ§ ÀÔ·Â
-		 String c = sc.nextLine(); // ¹®Àå´ÜÀ§ ÀÔ·Â
+		 System.out.print("ë¬¸ìì—´ì„ ì…ë ¥ : ");
+		 //String c = sc.next(); // ë‹¨ì–´ë‹¨ìœ„ ì…ë ¥
+		 String c = sc.nextLine(); // ë¬¸ì¥ë‹¨ìœ„ ì…ë ¥
 		 System.out.println("c : " + c);
 	}
 }

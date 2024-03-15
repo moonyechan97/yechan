@@ -12,7 +12,7 @@ public class ex20 {
 	       
 	       int num = sc.nextInt();
 	       
-	       System.out.println("*** " + num + "´Ü *** ");
+	       System.out.println("*** " + num + "ë‹¨ *** ");
 	       for (int i = 1 ; i <= 9 ; i++) {
 	    	   System.out.println( num + " * " + i + " = " + num * i);
 	       }

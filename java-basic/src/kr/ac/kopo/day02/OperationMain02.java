@@ -8,14 +8,14 @@ public class OperationMain02 {
 		int secondNum = 3;
 		
 		boolean result = secondNum != 0 && firstNum % secondNum == 0;
-		System.out.println("¹è¼ö¿©ºÎ ÆÇ´Ü : "
-					+ ( result == true ? "¹è¼ö´Ù" : "¹è¼ö°¡ ¾Æ´Ï´Ù"));
-		System.out.println("¹è¼ö¿©ºÎ ÆÇ´Ü : "
-				+ ( result == false ? "¹è¼ö°¡ ¾Æ´Ï´Ù" : "¹è¼ö´Ù"));
-		System.out.println("¹è¼ö¿©ºÎ ÆÇ´Ü : "
-				+ ( result ? "¹è¼ö´Ù" : "¹è¼ö°¡ ¾Æ´Ï´Ù"));
-		System.out.println("¹è¼ö¿©ºÎ ÆÇ´Ü : "
-				+ ( !result ? "¹è¼ö°¡ ¾Æ´Ï´Ù" : "¹è¼ö´Ù"));
+		System.out.println("ë°°ìˆ˜ì—¬ë¶€ íŒë‹¨ : "
+					+ ( result == true ? "ë°°ìˆ˜ë‹¤" : "ë°°ìˆ˜ê°€ ì•„ë‹ˆë‹¤"));
+		System.out.println("ë°°ìˆ˜ì—¬ë¶€ íŒë‹¨ : "
+				+ ( result == false ? "ë°°ìˆ˜ê°€ ì•„ë‹ˆë‹¤" : "ë°°ìˆ˜ë‹¤"));
+		System.out.println("ë°°ìˆ˜ì—¬ë¶€ íŒë‹¨ : "
+				+ ( result ? "ë°°ìˆ˜ë‹¤" : "ë°°ìˆ˜ê°€ ì•„ë‹ˆë‹¤"));
+		System.out.println("ë°°ìˆ˜ì—¬ë¶€ íŒë‹¨ : "
+				+ ( !result ? "ë°°ìˆ˜ê°€ ì•„ë‹ˆë‹¤" : "ë°°ìˆ˜ë‹¤"));
 		
 	}
 }

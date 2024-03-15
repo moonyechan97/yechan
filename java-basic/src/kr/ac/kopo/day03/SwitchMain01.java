@@ -3,10 +3,10 @@ package kr.ac.kopo.day03;
 import java.util.Random;
 
 /*
- * 1 �Է½� -> "ONE"
+ * 1 입력시 -> "ONE"
  * 2	  -> "TWO"
  * 3      -> "THREE"
- * �׿�    -> "ERROR"
+ * 그외    -> "ERROR"
  */
 
 public class SwitchMain01 {

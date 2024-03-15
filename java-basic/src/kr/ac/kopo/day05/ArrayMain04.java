@@ -12,9 +12,9 @@ public class ArrayMain04 {
         for (int i = 0 ; i < score.length ; i++) {
            sum += score[i];
         }
-        average = sum / (float)score.length; // °è»ê°á°ú¸¦ float·Î ¾ò±â À§ÇÔ.
+        average = sum / (float)score.length; // ê³„ì‚°ê²°ê³¼ë¥¼ floatë¡œ ì–»ê¸° ìœ„í•¨.
         
-        System.out.println("ÃÑÁ¡ : " + sum);
-        System.out.println("Æò±Õ : " + average);
+        System.out.println("ì´ì  : " + sum);
+        System.out.println("í‰ê·  : " + average);
         }
 }

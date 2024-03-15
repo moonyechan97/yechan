@@ -3,10 +3,10 @@ package kr.ac.kopo.day02;
 import java.util.Scanner;
 
 /*
- 	º¸À¯ÇÏ°í ÀÖ´Â Ã¥±Ç¼ö ÀÔ·Â : 1
+ 	ë³´ìœ í•˜ê³  ìžˆëŠ” ì±…ê¶Œìˆ˜ ìž…ë ¥ : 1
  	1 book
  	
-	º¸À¯ÇÏ°í ÀÖ´Â Ã¥±Ç¼ö ÀÔ·Â : 4
+	ë³´ìœ í•˜ê³  ìžˆëŠ” ì±…ê¶Œìˆ˜ ìž…ë ¥ : 4
 	4 books
  */
 
@@ -15,7 +15,7 @@ public class IFMain01 {
 	public static void main(String[] args) {
 
 		Scanner sc = new  Scanner(System.in);
-		System.out.print("º¸À¯ÇÏ°í ÀÖ´Â Ã¥ ±Ç¼ö ÀÔ·Â : ");
+		System.out.print("ë³´ìœ í•˜ê³  ìžˆëŠ” ì±… ê¶Œìˆ˜ ìž…ë ¥ : ");
 		int book = sc.nextInt();
 		
 		if(book == 1) {
@@ -32,6 +32,9 @@ public class IFMain01 {
 		*/
 	}
 }
+
+
+
 
 
 

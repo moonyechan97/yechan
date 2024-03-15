@@ -31,24 +31,24 @@ public class ArrayMain04 {
 		arr = new int[]{8, 7, 6, 5, 4, 3, 2, 1};
 		
 		/*
-		 * ¹è¿­ÀÇ ¸ğµç ¿ø¼Ò¸¦ Ãâ·Â¹æ½Ä
-		 * 1. index¸¦ ÀÌ¿ëÇÑ Ãâ·Â
-		 * 2. 1.5¹öÀüÀÇ for¹®À» ÀÌ¿ëÇÑ Ãâ·Â
-		 * 3. Arrays.toString() ¸Ş¼Òµå¸¦ ÀÌ¿ëÇÑ Ãâ·Â 
+		 * ë°°ì—´ì˜ ëª¨ë“  ì›ì†Œë¥¼ ì¶œë ¥ë°©ì‹
+		 * 1. indexë¥¼ ì´ìš©í•œ ì¶œë ¥
+		 * 2. 1.5ë²„ì „ì˜ forë¬¸ì„ ì´ìš©í•œ ì¶œë ¥
+		 * 3. Arrays.toString() ë©”ì†Œë“œë¥¼ ì´ìš©í•œ ì¶œë ¥ 
 		 */
-		System.out.println("< index¸¦ ÀÌ¿ëÇÑ Ãâ·Â >");
+		System.out.println("< indexë¥¼ ì´ìš©í•œ ì¶œë ¥ >");
 		for(int i = 0; i < arr.length; i++) {
 			System.out.print(arr[i] + "  ");
 		}
 		System.out.println();
 		
-		System.out.println("< 1.5¹öÀüÀÇ for¹®À» ÀÌ¿ëÇÑ Ãâ·Â >");
+		System.out.println("< 1.5ë²„ì „ì˜ forë¬¸ì„ ì´ìš©í•œ ì¶œë ¥ >");
 		for(int data : arr) {
 			System.out.print(data + "  ");
 		}
 		System.out.println();
 		
-		System.out.println("< Arrays.toString() ¸Ş¼Òµå¸¦ ÀÌ¿ëÇÑ Ãâ·Â >");
+		System.out.println("< Arrays.toString() ë©”ì†Œë“œë¥¼ ì´ìš©í•œ ì¶œë ¥ >");
 		System.out.println(Arrays.toString(arr));
 		
 	}

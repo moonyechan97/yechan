@@ -15,7 +15,7 @@ public class ex01 {
 		}
 		
 		for (int mod = 0; mod <= 1; mod++) {
-			System.out.printf("< %s >\n", mod == 0 ? "Â¦¼ö" : "È¦¼ö");
+			System.out.printf("< %s >\n", mod == 0 ? "ì§ìˆ˜" : "í™€ìˆ˜");
 			for (int num : nums) {
 				if (num % 2 == mod)
 					System.out.print(num + "  ");

@@ -6,8 +6,8 @@ public class ArrayMain06 {
 
 	public static void main(String[] args) {
 		
-		String[] strArr = {"º½", "¿©¸§"};
-		String[] strArr2 = {"°¡À»", "°Ü¿ï"};
+		String[] strArr = {"ë´„", "ì—¬ë¦„"};
+		String[] strArr2 = {"ê°€ì„", "ê²¨ìš¸"};
 		
 		String[] strArr3 = new String[strArr.length + strArr2.length];
 		System.out.println(Arrays.toString(strArr3));

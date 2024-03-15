@@ -6,15 +6,15 @@ public class ArrayMain05 {
 
 	public static void main(String[] args) {
 	    
-		// "2024³â" "java" "±³À°" ¹®ÀÚ¿­À» ÀúÀå
-//		String str = "2024³â";
-		String str = new String("2024³â");
+		// "2024ë…„" "java" "êµìœ¡" ë¬¸ìì—´ì„ ì €ì¥
+//		String str = "2024ë…„";
+		String str = new String("2024ë…„");
 		String str2 = "java";
-		String str3 = "±³À°";
+		String str3 = "êµìœ¡";
 		
 		String[] strArr = {str, str2, str3};
 		
-		System.out.println("¿ø¼ÒÀÇ ÃÑ°³¼ö : " + strArr.length);
+		System.out.println("ì›ì†Œì˜ ì´ê°œìˆ˜ : " + strArr.length);
 		
 		for(int i = 0; i < strArr.length; i++) {
 			System.out.println(strArr[i]);

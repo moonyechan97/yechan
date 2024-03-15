@@ -3,16 +3,16 @@ package kr.ac.kopo.day02;
 import java.util.Scanner;
 
 /*
- * µÎ°³ÀÇ Á¤¼ö¸¦ ÀÔ·Â¹Ş¾Æ 
- * Ã¹¹øÂ° ÀÔ·Â°ªÀÌ µÎ¹øÂ° ÀÔ·Â°ªÀÇ ¹è¼ö¿©ºÎ¸¦ ÆÇ´ÜÇÏ´Â ÇÁ·Î±×·¥ ÀÛ¼º 
+ * ë‘ê°œì˜ ì •ìˆ˜ë¥¼ ì…ë ¥ë°›ì•„ 
+ * ì²«ë²ˆì§¸ ì…ë ¥ê°’ì´ ë‘ë²ˆì§¸ ì…ë ¥ê°’ì˜ ë°°ìˆ˜ì—¬ë¶€ë¥¼ íŒë‹¨í•˜ëŠ” í”„ë¡œê·¸ë¨ ì‘ì„± 
  * 
- * Ã¹¹øÂ° Á¤¼ö : 12
- * µÎ¹øÂ° Á¤¼ö : 4
- * 12´Â 4ÀÇ ¹è¼ö ¿©ºÎ ÆÇ´Ü : true
+ * ì²«ë²ˆì§¸ ì •ìˆ˜ : 12
+ * ë‘ë²ˆì§¸ ì •ìˆ˜ : 4
+ * 12ëŠ” 4ì˜ ë°°ìˆ˜ ì—¬ë¶€ íŒë‹¨ : true
  * --------------------------------
- * Ã¹¹øÂ° Á¤¼ö : 18
- * µÎ¹øÂ° Á¤¼ö : 4
- * 18´Â 4ÀÇ ¹è¼ö ¿©ºÎ ÆÇ´Ü : false
+ * ì²«ë²ˆì§¸ ì •ìˆ˜ : 18
+ * ë‘ë²ˆì§¸ ì •ìˆ˜ : 4
+ * 18ëŠ” 4ì˜ ë°°ìˆ˜ ì—¬ë¶€ íŒë‹¨ : false
  * 
  */
 public class OperationMain03 {
@@ -21,22 +21,22 @@ public class OperationMain03 {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.print("Ã¹¹øÂ° Á¤¼ö : ");
+		System.out.print("ì²«ë²ˆì§¸ ì •ìˆ˜ : ");
 		int firstNum = sc.nextInt();
 		sc.nextLine();
 		
-		System.out.print("µÎ¹øÂ° Á¤¼ö : ");
+		System.out.print("ë‘ë²ˆì§¸ ì •ìˆ˜ : ");
 		int secondNum = sc.nextInt();
 		sc.nextLine();
 		
-		// ¹è¼ö¿©ºÎ ÆÇ´Ü
+		// ë°°ìˆ˜ì—¬ë¶€ íŒë‹¨
 		boolean result = secondNum!= 0 && firstNum % secondNum == 0;
 		
-		System.out.printf("%d´Â %dÀÇ ¹è¼ö¿©ºÎ ÆÇ´Ü : %b\n",
+		System.out.printf("%dëŠ” %dì˜ ë°°ìˆ˜ì—¬ë¶€ íŒë‹¨ : %b\n",
 				firstNum, secondNum, result);
 		
-		// 18´Â 4ÀÇ ¹è¼ö ¿©ºÎ ÆÇ´Ü : false
-		System.out.println(firstNum + "´Â " + secondNum + "ÀÇ ¹è¼ö ¿©ºÎ ÆÇ´Ü : " + result);
+		// 18ëŠ” 4ì˜ ë°°ìˆ˜ ì—¬ë¶€ íŒë‹¨ : false
+		System.out.println(firstNum + "ëŠ” " + secondNum + "ì˜ ë°°ìˆ˜ ì—¬ë¶€ íŒë‹¨ : " + result);
 	}
 }
 

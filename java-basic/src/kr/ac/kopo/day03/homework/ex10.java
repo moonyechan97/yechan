@@ -8,15 +8,15 @@ public class ex10 {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.print("Ã¹¹øÂ° Á¤¼ö : ");
+		System.out.print("ì²«ë²ˆì§¸ ì •ìˆ˜ : ");
 		int num01 = sc.nextInt();
 		sc.nextLine();
 		
-		System.out.print("µÎ¹øÂ° Á¤¼ö : ");
+		System.out.print("ë‘ë²ˆì§¸ ì •ìˆ˜ : ");
 		int num02 = sc.nextInt();
 		sc.nextLine();
 		
-		System.out.print("¼¼¹øÂ° Á¤¼ö : ");
+		System.out.print("ì„¸ë²ˆì§¸ ì •ìˆ˜ : ");
 		int num03 = sc.nextInt();
 		sc.nextLine();
 	

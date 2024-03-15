@@ -18,7 +18,7 @@ public class ex03 {
 		
 		System.out.println("< PRINT >");
 		System.out.println("--------------------------");
-		System.out.println("¹øÈ£\t¼ºÀû\tÇĞÁ¡");
+		System.out.println("ë²ˆí˜¸\tì„±ì \tí•™ì ");
 		System.out.println("--------------------------");
 		for(int i = 0; i < score.length; i++) {
 			if(score[i] >= 0 && score[i] <= 100) {
@@ -45,8 +45,8 @@ public class ex03 {
 			}
 		}
 		System.out.println("--------------------------");
-		System.out.println("ÃÑ  Á¡ : " +  total + "Á¡");
-//		System.out.printf("Æò  ±Õ : %.2fÁ¡\n", total / 5.);
-		System.out.printf("Æò  ±Õ : %.2fÁ¡\n", (double)total / score.length);
+		System.out.println("ì´  ì  : " +  total + "ì ");
+//		System.out.printf("í‰  ê·  : %.2fì \n", total / 5.);
+		System.out.printf("í‰  ê·  : %.2fì \n", (double)total / score.length);
 	}
 }

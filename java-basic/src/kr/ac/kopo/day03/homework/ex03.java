@@ -6,16 +6,16 @@ public class ex03 {
 
 	public static void main(String[] args) {
 		
-		final double ¿øÁÖÀ² = 3.141592;
+		final double ì›ì£¼ìœ¨ = 3.141592;
 		
 		Scanner sc = new Scanner(System.in);
-		System.out.print("¹İÁö¸§ ÀÔ·Â: ");
+		System.out.print("ë°˜ì§€ë¦„ ì…ë ¥: ");
 		int r = sc.nextInt();
 		sc.nextLine();
 		
-		double result = r * r * ¿øÁÖÀ²; 
+		double result = r * r * ì›ì£¼ìœ¨; 
 		
-		System.out.printf("¹İÁö¸§ÀÌ %dÀÏ¶§ ¿øÀÇ ¸éÀûÀº %fÀÔ´Ï´Ù.", r, result);
+		System.out.printf("ë°˜ì§€ë¦„ì´ %dì¼ë•Œ ì›ì˜ ë©´ì ì€ %fì…ë‹ˆë‹¤.", r, result);
 		
 	}
 

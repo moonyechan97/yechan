@@ -3,20 +3,20 @@ package kr.ac.kopo.day04.homework;
 import java.util.Scanner;
 
 /*
- 	1's ¼ºÀû : 90
-	90Á¡ÀÇ ÇĞÁ¡Àº AÀÔ´Ï´Ù
+ 	1's ì„±ì  : 90
+	90ì ì˜ í•™ì ì€ Aì…ë‹ˆë‹¤
 	
-	2's ¼ºÀû : 37
-	37Á¡ÀÇ ÇĞÁ¡Àº FÀÔ´Ï´Ù
+	2's ì„±ì  : 37
+	37ì ì˜ í•™ì ì€ Fì…ë‹ˆë‹¤
 	
-	3's ¼ºÀû : 89
-	89Á¡ÀÇ ÇĞÁ¡Àº BÀÔ´Ï´Ù
+	3's ì„±ì  : 89
+	89ì ì˜ í•™ì ì€ Bì…ë‹ˆë‹¤
 	
-	4's ¼ºÀû : 1000
-	Àß¸øÀÔ·ÂÇÏ¼Ì½À´Ï´Ù
+	4's ì„±ì  : 1000
+	ì˜ëª»ì…ë ¥í•˜ì…¨ìŠµë‹ˆë‹¤
 	
-	5's ¼ºÀû : 96
-	96Á¡ÀÇ ÇĞÁ¡Àº AÀÔ´Ï´Ù
+	5's ì„±ì  : 96
+	96ì ì˜ í•™ì ì€ Aì…ë‹ˆë‹¤
  */
 public class ex06 {
 
@@ -25,23 +25,23 @@ public class ex06 {
 		Scanner sc = new Scanner(System.in);
 		
 		for (int i = 1; i <= 5; i++) {
-			System.out.print(i + "\'s ¼ºÀû ÀÔ·Â : ");
+			System.out.print(i + "\'s ì„±ì  ì…ë ¥ : ");
 			int score = Integer.parseInt(sc.nextLine());
 
 			if(score >= 0 && score <= 100) {
 				if (score >= 90) {
-					System.out.printf("%d\'s ÇĞÁ¡Àº A\n", score);
+					System.out.printf("%d\'s í•™ì ì€ A\n", score);
 				} else if (score >= 80) {
-					System.out.println(score + "\'s ÇĞÁ¡Àº B");
+					System.out.println(score + "\'s í•™ì ì€ B");
 				} else if (score >= 70) {
-					System.out.println(score + "\'s ÇĞÁ¡Àº C");
+					System.out.println(score + "\'s í•™ì ì€ C");
 				} else if (score >= 60) {
-					System.out.println(score + "\'s ÇĞÁ¡Àº D");
+					System.out.println(score + "\'s í•™ì ì€ D");
 				} else {
-					System.out.println(score + "\'s ÇĞÁ¡Àº F");
+					System.out.println(score + "\'s í•™ì ì€ F");
 				}
 			} else {
-				System.out.println("Àß¸øÀÔ·ÂÇß½À´Ï´Ù");
+				System.out.println("ì˜ëª»ì…ë ¥í–ˆìŠµë‹ˆë‹¤");
 			}
 		}
 	}

@@ -12,7 +12,7 @@ package kr.ac.kopo.day08;
 
 public class MethodMain01 {
 
-	static void printStar(char ch, int cnt){                         //¸Ş¼Òµå([printStar)ÀÇ Á¤ÀÇ/¼±¾ğºÎ
+	static void printStar(char ch, int cnt){                         //ë©”ì†Œë“œ([printStar)ì˜ ì •ì˜/ì„ ì–¸ë¶€
 		
 		for(int i = 0; i < cnt; i++) {
 			System.out.print(ch);
@@ -22,7 +22,7 @@ public class MethodMain01 {
 	
     public static void main(String[] args) {  
 	
-    	printStar('*', 10);                                 //¸Ş¼Òµå¸¦ È£Ãâ
+    	printStar('*', 10);                                 //ë©”ì†Œë“œë¥¼ í˜¸ì¶œ
 		System.out.println("Hello");
 		printStar('!', 5);
 		System.out.println("Hi");
@@ -34,3 +34,4 @@ public class MethodMain01 {
 	}
 
 }
+

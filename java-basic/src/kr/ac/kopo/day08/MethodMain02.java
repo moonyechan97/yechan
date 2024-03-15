@@ -2,7 +2,7 @@ package kr.ac.kopo.day08;
 
 public class MethodMain02 {
 
-	//È£ÃâÀÚ : main(), ÇÇÈ£ÃâÀÚ : getSum()
+	//í˜¸ì¶œì : main(), í”¼í˜¸ì¶œì : getSum()
 	static int getSum(int a, int b) {
 		int sum = 0;
 		while(a <= b) {
@@ -15,7 +15,7 @@ public class MethodMain02 {
 		
 		int a = 1, b = 5;
         int total = getSum(a, b);
-        System.out.printf("%d ~ %d»çÀÌÀÇ ÃÑÇÕ : %d\n" , a, b, total);
+        System.out.printf("%d ~ %dì‚¬ì´ì˜ ì´í•© : %d\n" , a, b, total);
        
 	}
 

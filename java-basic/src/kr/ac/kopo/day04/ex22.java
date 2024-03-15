@@ -8,10 +8,10 @@ public class ex22 {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.print("½ÃÀÛ´Ü : ");
+		System.out.print("ì‹œìž‘ë‹¨ : ");
 		int start = sc.nextInt();
 		
-		System.out.print("Á¾·á´Ü : ");
+		System.out.print("ì¢…ë£Œë‹¨ : ");
 		int end = sc.nextInt();
 		
 		

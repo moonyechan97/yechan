@@ -8,16 +8,16 @@ public class ex05 {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		    System.out.print(" 2~10 »çÀÌÀÇ Á¤¼ö ÀÔ·Â : ");
+		    System.out.print(" 2~10 ì‚¬ì´ì˜ ì •ìˆ˜ ì…ë ¥ : ");
 		
 	        int num = sc.nextInt();
 	        sc.nextLine();
 	        
-	        System.out.printf( " < 1 ~ 100 »çÀÌ¿¡ %dÀÇ ¹è¼ö Ãâ·Â >\n" , num);
+	        System.out.printf( " < 1 ~ 100 ì‚¬ì´ì— %dì˜ ë°°ìˆ˜ ì¶œë ¥ >\n" , num);
 	        
 	        /*
-				¿¹Âù¾¾ ¾Æ·¡ ÄÚµå ¹İº¹¹® ¾Èµµ´Â °ÍÃ³·³ º¸ÀÏÅÍÀÎµ¥........
-				for() µÚ¿¡ ;µµ ºÙ¾îÀÖ°í...... ÇÑ¹ø ´Ù½Ã »ı°¢ÇØº¾½Ã´Ù
+				ì˜ˆì°¬ì”¨ ì•„ë˜ ì½”ë“œ ë°˜ë³µë¬¸ ì•ˆë„ëŠ” ê²ƒì²˜ëŸ¼ ë³´ì¼í„°ì¸ë°........
+				for() ë’¤ì— ;ë„ ë¶™ì–´ìˆê³ ...... í•œë²ˆ ë‹¤ì‹œ ìƒê°í•´ë´…ì‹œë‹¤
 			*/
 	        
 	        int cnt = 0;
@@ -31,6 +31,6 @@ public class ex05 {
 	}
             
 	        System.out.println();
-            System.out.println("ÃÑ °³¼ö : " + cnt + "°³");
+            System.out.println("ì´ ê°œìˆ˜ : " + cnt + "ê°œ");
 	}    
 }

@@ -11,30 +11,30 @@ public class HandphoneMain {
 	public static void main(String[] args) {
 		
 		Handphone hp = new Handphone();
-		hp.name = "È«±æµ¿";
+		hp.name = "í™ê¸¸ë™";
 		hp.phone = "010-1111-2222";
-		hp.company = "»ï¼º";
+		hp.company = "ì‚¼ì„±";
 		
 		Handphone hp2 = new Handphone();
-		hp2.name = "°­±æµ¿";
+		hp2.name = "ê°•ê¸¸ë™";
 		hp2.phone = "010-3333-4444";
-		hp2.company = "¾ÖÇÃ";
+		hp2.company = "ì• í”Œ";
 		
 		Handphone hp3 = new Handphone();
-		hp3.name = "°í±æµ¿";
+		hp3.name = "ê³ ê¸¸ë™";
 		hp3.phone = "010-5555-6666";
-		hp3.company = "¸ğÅä·Î¶ó";
+		hp3.company = "ëª¨í† ë¡œë¼";
 		
 		Handphone[] hpArr = {hp, hp2, hp3};
 		
 		for(Handphone p : hpArr) {
-			System.out.println("¼ÒÀ¯ÁÖ¸í : " + p.name + ", ÇÚµåÆù¹øÈ£ : " + p.phone + ", Á¦Á¶»ç : " + p.company);
+			System.out.println("ì†Œìœ ì£¼ëª… : " + p.name + ", í•¸ë“œí°ë²ˆí˜¸ : " + p.phone + ", ì œì¡°ì‚¬ : " + p.company);
 		}
 		
 		System.out.println("---------------------------------------");
 		
 		for(int i =0; i < hpArr.length; i++) {
-			System.out.println("¼ÒÀ¯ÁÖ¸í : " + hpArr[i].name + ", ÇÚµåÆù¹øÈ£ : " + hpArr[i].phone + ", Á¦Á¶»ç : " + hpArr[i].company);
+			System.out.println("ì†Œìœ ì£¼ëª… : " + hpArr[i].name + ", í•¸ë“œí°ë²ˆí˜¸ : " + hpArr[i].phone + ", ì œì¡°ì‚¬ : " + hpArr[i].company);
 		}
 	}
 }

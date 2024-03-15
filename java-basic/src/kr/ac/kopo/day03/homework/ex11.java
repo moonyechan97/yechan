@@ -6,7 +6,7 @@ public class ex11 {
 
 	public static void main(String[] args) {
 		
-		// 0 ~ 99 »çÀÌÀÇ ÀÓÀÇÀÇ Á¤¼ö 4°³ ÃßÃâ
+		// 0 ~ 99 ì‚¬ì´ì˜ ì„ì˜ì˜ ì •ìˆ˜ 4ê°œ ì¶”ì¶œ
 		Random r = new Random();
 		
 		int a = r.nextInt(100);
@@ -21,7 +21,7 @@ public class ex11 {
 		if(d > max02) {
 			max02 = d;
 		}
-		System.out.println("°¡Àå Å«¼ö : " 
+		System.out.println("ê°€ì¥ í°ìˆ˜ : " 
 					+ (max01 > max02 ? max01 : max02));
 		
 		/*
@@ -33,7 +33,7 @@ public class ex11 {
 			max = d;
 		}
 		
-		System.out.println("°¡Àå Å«¼ö : " + max);
+		System.out.println("ê°€ì¥ í°ìˆ˜ : " + max);
 		*/
 	
 	}

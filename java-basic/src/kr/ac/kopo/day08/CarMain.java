@@ -1,6 +1,6 @@
 package kr.ac.kopo.day08;
 
-// ½ÇÇàÅ¬·¡½º
+// ì‹¤í–‰í´ë˜ìŠ¤
 public class CarMain {
 
 	public static void main(String[] args) {
@@ -8,13 +8,13 @@ public class CarMain {
 		Car c = new Car();
 		Car c2 = new Car();
 		
-		c.name = "¼Ò³ªÅ¸";
+		c.name = "ì†Œë‚˜íƒ€";
 		c.price = 3600;
 		
-		c2.name = "±×·£Àú";
+		c2.name = "ê·¸ëœì €";
 		c2.price = 4200;
 		
-		System.out.println("ÀÚµ¿Â÷¸í : " + c.name + ", °¡°İ : " + c.price + "¸¸¿ø");
-		System.out.println("ÀÚµ¿Â÷¸í : " + c2.name + ", °¡°İ : " + c2.price + "¸¸¿ø");
+		System.out.println("ìë™ì°¨ëª… : " + c.name + ", ê°€ê²© : " + c.price + "ë§Œì›");
+		System.out.println("ìë™ì°¨ëª… : " + c2.name + ", ê°€ê²© : " + c2.price + "ë§Œì›");
 	}
 }

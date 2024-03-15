@@ -4,11 +4,11 @@ public class ArrayMain03 {
 
 	public static void main(String[] args) {
 		
-		String[] strArr = {"2024", "java", "±³À°"};
+		String[] strArr = {"2024", "java", "êµìœ¡"};
 		
 		System.out.println("lenth : " + strArr.length);
-		System.out.println("Ã¹¹øÂ° ¹®ÀÚ¿­ : " + strArr[0]);
-		System.out.println("µÎ¹øÂ° ¹®ÀÚ¿­ : " + strArr[1]);
-		System.out.println("¼¼¹øÂ° ¹®ÀÚ¿­ : " + strArr[2]);
+		System.out.println("ì²«ë²ˆì§¸ ë¬¸ìì—´ : " + strArr[0]);
+		System.out.println("ë‘ë²ˆì§¸ ë¬¸ìì—´ : " + strArr[1]);
+		System.out.println("ì„¸ë²ˆì§¸ ë¬¸ìì—´ : " + strArr[2]);
 	}
 }

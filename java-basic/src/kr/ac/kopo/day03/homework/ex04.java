@@ -8,19 +8,19 @@ public class ex04 {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		  System.out.print("Á¤¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä: ");
+		  System.out.print("ì •ìˆ˜ë¥¼ ìž…ë ¥í•˜ì„¸ìš”: ");
 		  int num1 = sc.nextInt();
 		  sc.nextLine();
 		
-		  System.out.print("³ª´­ ¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä: ");
+		  System.out.print("ë‚˜ëˆŒ ìˆ˜ë¥¼ ìž…ë ¥í•˜ì„¸ìš”: ");
 		  int num2 = sc.nextInt();
 		  sc.nextLine();
 		
 		  int q = num1 / num2;
 		  int r = num1 % num2;
 		
-		  System.out.println("¸ò : " + q);
-		  System.out.println("³ª¸ÓÁö : " + r);		
+		  System.out.println("ëª« : " + q);
+		  System.out.println("ë‚˜ë¨¸ì§€ : " + r);		
 
 	}
 

@@ -8,10 +8,10 @@ public class ex07 {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.print("¾ËÆÄºªÀ» ÀÔ·Â : ");
+		System.out.print("ì•ŒíŒŒë²³ì„ ìž…ë ¥ : ");
 		char ch = sc.nextLine().charAt(0);
 		
-		System.out.println("ÀÔ·Â¹ÞÀº ¹®ÀÚ : " + ch);
+		System.out.println("ìž…ë ¥ë°›ì€ ë¬¸ìž : " + ch);
 		
 		if(ch >= 'A' && ch <= 'Z') {
 //			ch = (char)(ch + 32);
@@ -20,7 +20,7 @@ public class ex07 {
 			ch = (char)(ch  + 'A' - 'a');
 		}
 		
-		System.out.println("º¯È¯µÈ ¹®ÀÚ : " + ch);
+		System.out.println("ë³€í™˜ëœ ë¬¸ìž : " + ch);
 	}
 }
 
