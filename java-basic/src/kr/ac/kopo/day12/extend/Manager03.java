@@ -13,7 +13,8 @@ public class Manager03 extends Employee {
 		this.empList = empList;
 	}
 	
-	void info( ) {
+	@Override
+	void info() {
 		super.info();
 		System.out.println("------------------------------");
 		System.out.println("\t< 관리사원 리스트 >");
